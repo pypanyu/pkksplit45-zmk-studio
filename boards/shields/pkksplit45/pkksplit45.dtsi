@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "layout.dtsi" 
+#include "physical_layouts.dtsi"
 / { 
     physical_layout: pkksplit45 {
         compatible = "zmk,physical-layout";
