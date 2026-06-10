@@ -1,4 +1,4 @@
-if SHIELD_pkksplit45_LEFT
+if SHIELD_PKKSPLIT45_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "pkksplit45"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_pkksplit45_LEFT || SHIELD_pkksplit45_RIGHT
+if SHIELD_PKKSPLIT45_LEFT || SHIELD_PKKSPLIT45_RIGHT
 
 config ZMK_SPLIT
     default y
