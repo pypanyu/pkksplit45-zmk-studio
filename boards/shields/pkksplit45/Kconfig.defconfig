@@ -1,0 +1,16 @@
+if SHIELD_pkksplit45_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "pkksplit45"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_pkksplit45_LEFT || SHIELD_pkksplit45_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

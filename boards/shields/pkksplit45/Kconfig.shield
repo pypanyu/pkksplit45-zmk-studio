@@ -1,0 +1,5 @@
+config SHIELD_pkksplit45_LEFT
+    def_bool $(shields_list_contains,pkksplit45_left)
+
+config SHIELD_pkksplit45_RIGHT
+    def_bool $(shields_list_contains,pkksplit45_right)

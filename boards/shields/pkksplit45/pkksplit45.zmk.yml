@@ -1,0 +1,11 @@
+file_format: "1"
+id: pkksplit45
+name: pkksplit45
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - pkksplit45_left
+  - pkksplit45_right
